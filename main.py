@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 from random import random
 
-MODEL_NAME = "Smm2-hori"
+MODEL_NAME = "eng-smm2-hori"
 FONT_FILENAME = "smm2.ttf"
 
 
