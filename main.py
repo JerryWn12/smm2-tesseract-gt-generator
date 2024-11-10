@@ -47,7 +47,7 @@ def generate_score(count):
 
     for _ in range(count):
         # smm2 have a maxinum score of 8000
-        score = str(int(random() * 8000))
+        score = str(int(random() * 7000 + 1000))
         generate(score, score)
 
 
