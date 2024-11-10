@@ -1,3 +1,5 @@
+import os
+
 from PIL import Image, ImageDraw, ImageFont
 from random import random
 
@@ -48,6 +50,9 @@ def generate_score(count):
         score = str(int(random() * 8000))
         generate(score, score)
 
+
+if not os.path.exists("gt"):
+    os.mkdir("gt")
 
 generate_course_id(10)
 generate_score(20)
